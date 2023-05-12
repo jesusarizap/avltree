@@ -1,0 +1,402 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java</file>
+  <line>19</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlNodeTest void setUp()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java</file>
+  <line>24</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlNodeTest void tearDown()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>22</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void setUp()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>28</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void tearDown()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>34</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testAvlIsEmpty()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>42</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertTop()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>51</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testCompareNodes()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>71</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightAndLeftElementsJustAfterTop()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>69</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>100</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftElement()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>114</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchClosestNode()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>146</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightElement()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>165</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testHeightAndBalanceOfASimpleBalancedTree()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>65</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>215</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>256</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>63</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>297</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_4_3_2_1()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>331</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_8_9_10_11()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>365</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>401</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>432</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchNode()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>38</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>465</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testFindSuccessor()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>504</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingLeafNodes()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>553</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithOneLeaf()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>52</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>590</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithTwoLeaves()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>633</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingAndRebalancing()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>669</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingTopNode()" />
+  <problem_class id="RedundantThrows" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'throws' clause</problem_class>
+  <hints>
+    <hint value="Exception" />
+  </hints>
+  <description>The declared exception &lt;code&gt;Exception&lt;/code&gt; is never thrown</description>
+  <highlighted_element>Exception</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>9</length>
+</problem>
+</problems>

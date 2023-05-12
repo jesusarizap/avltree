@@ -1,0 +1,93 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>526</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingLeafNodes()" />
+  <problem_class id="SimplifiableAssertion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Simplifiable assertion</problem_class>
+  <description>&lt;code&gt;assertEquals()&lt;/code&gt; can be simplified to 'assertNull()' #loc</description>
+  <highlighted_element>assertEquals</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>532</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingLeafNodes()" />
+  <problem_class id="SimplifiableAssertion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Simplifiable assertion</problem_class>
+  <description>&lt;code&gt;assertEquals()&lt;/code&gt; can be simplified to 'assertNull()' #loc</description>
+  <highlighted_element>assertEquals</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>538</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingLeafNodes()" />
+  <problem_class id="SimplifiableAssertion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Simplifiable assertion</problem_class>
+  <description>&lt;code&gt;assertEquals()&lt;/code&gt; can be simplified to 'assertNull()' #loc</description>
+  <highlighted_element>assertEquals</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>543</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingLeafNodes()" />
+  <problem_class id="SimplifiableAssertion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Simplifiable assertion</problem_class>
+  <description>&lt;code&gt;assertEquals()&lt;/code&gt; can be simplified to 'assertNull()' #loc</description>
+  <highlighted_element>assertEquals</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>548</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingLeafNodes()" />
+  <problem_class id="SimplifiableAssertion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Simplifiable assertion</problem_class>
+  <description>&lt;code&gt;assertEquals()&lt;/code&gt; can be simplified to 'assertNull()' #loc</description>
+  <highlighted_element>assertEquals</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>576</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithOneLeaf()" />
+  <problem_class id="SimplifiableAssertion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Simplifiable assertion</problem_class>
+  <description>&lt;code&gt;assertEquals()&lt;/code&gt; can be simplified to 'assertNull()' #loc</description>
+  <highlighted_element>assertEquals</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>583</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithOneLeaf()" />
+  <problem_class id="SimplifiableAssertion" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Simplifiable assertion</problem_class>
+  <description>&lt;code&gt;assertEquals()&lt;/code&gt; can be simplified to 'assertNull()' #loc</description>
+  <highlighted_element>assertEquals</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>12</length>
+</problem>
+</problems>

@@ -1,0 +1,67 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>34</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="field" FQNAME="avl.AvlTree comparator" />
+  <problem_class id="RawUseOfParameterizedType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Raw use of parameterized class</problem_class>
+  <description>Raw use of parameterized class &lt;code&gt;Comparator&lt;/code&gt; #loc</description>
+  <highlighted_element>Comparator</highlighted_element>
+  <language>JAVA</language>
+  <offset>2</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>41</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree AvlTree(java.util.Comparator comparator)" />
+  <problem_class id="RawUseOfParameterizedType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Raw use of parameterized class</problem_class>
+  <description>Raw use of parameterized class &lt;code&gt;Comparator&lt;/code&gt; #loc</description>
+  <highlighted_element>Comparator</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>24</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void setUp()" />
+  <problem_class id="RawUseOfParameterizedType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Raw use of parameterized class</problem_class>
+  <description>Raw use of parameterized class &lt;code&gt;AvlTree&lt;/code&gt; #loc</description>
+  <highlighted_element>AvlTree</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>37</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testAvlIsEmpty()" />
+  <problem_class id="RawUseOfParameterizedType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Raw use of parameterized class</problem_class>
+  <description>Raw use of parameterized class &lt;code&gt;AvlNode&lt;/code&gt; #loc</description>
+  <highlighted_element>AvlNode</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>43</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertTop()" />
+  <problem_class id="RawUseOfParameterizedType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Raw use of parameterized class</problem_class>
+  <description>Raw use of parameterized class &lt;code&gt;AvlNode&lt;/code&gt; #loc</description>
+  <highlighted_element>AvlNode</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>7</length>
+</problem>
+</problems>

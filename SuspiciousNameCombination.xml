@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>312</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree void leftRotation(avl.AvlNode&lt;T&gt; node)" />
+  <problem_class id="SuspiciousNameCombination" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Suspicious variable/parameter name combination</problem_class>
+  <description>'leftNode' should probably not be passed as parameter 'top'</description>
+  <highlighted_element>leftNode</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>334</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree void rightRotation(avl.AvlNode&lt;T&gt; node)" />
+  <problem_class id="SuspiciousNameCombination" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Suspicious variable/parameter name combination</problem_class>
+  <description>'rightNode' should probably not be passed as parameter 'top'</description>
+  <highlighted_element>rightNode</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>9</length>
+</problem>
+</problems>

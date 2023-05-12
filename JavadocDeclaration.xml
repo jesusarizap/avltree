@@ -1,0 +1,158 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlNode.java</file>
+  <line>42</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlNode AvlNode(T item)" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@param item&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>item</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>39</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree AvlTree(java.util.Comparator comparator)" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@param comparator&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>comparator</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>173</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree int searchClosestNode(avl.AvlNode&lt;T&gt; node)" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@param node&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>node</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>259</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree int compareNodes(avl.AvlNode&lt;T&gt; node1, avl.AvlNode&lt;T&gt; node2)" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@param node1&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>node1</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>260</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree int compareNodes(avl.AvlNode&lt;T&gt; node1, avl.AvlNode&lt;T&gt; node2)" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@param node2&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>node2</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>162</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testHeightAndBalanceOfASimpleBalancedTree()" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@throws&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>@throws</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>212</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@throws&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>@throws</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>253</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@throws&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>@throws</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>294</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_4_3_2_1()" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@throws&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>@throws</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>328</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_8_9_10_11()" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@throws&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>@throws</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>362</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@throws&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>@throws</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>398</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="JavadocDeclaration" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Javadoc declaration problems</problem_class>
+  <description>&lt;code&gt;@throws&lt;/code&gt; tag description is missing</description>
+  <highlighted_element>@throws</highlighted_element>
+  <language>JAVA</language>
+  <offset>5</offset>
+  <length>7</length>
+</problem>
+</problems>

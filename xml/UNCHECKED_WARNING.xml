@@ -1,0 +1,80 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>264</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree int compareNodes(avl.AvlNode&lt;T&gt; node1, avl.AvlNode&lt;T&gt; node2)" />
+  <problem_class id="UNCHECKED_WARNING" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unchecked warning</problem_class>
+  <description>Unchecked call to 'compare(T, T)' as a member of raw type 'java.util.Comparator'</description>
+  <highlighted_element>comparator.compare</highlighted_element>
+  <language>JAVA</language>
+  <offset>11</offset>
+  <length>18</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>24</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void setUp()" />
+  <problem_class id="UNCHECKED_WARNING" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unchecked warning</problem_class>
+  <description>Unchecked assignment: 'avl.AvlTree' to 'avl.AvlTree&lt;java.lang.Integer&gt;'</description>
+  <highlighted_element>AvlTree</highlighted_element>
+  <language>JAVA</language>
+  <offset>18</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>37</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testAvlIsEmpty()" />
+  <problem_class id="UNCHECKED_WARNING" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unchecked warning</problem_class>
+  <description>Unchecked assignment: 'avl.AvlNode' to 'avl.AvlNode&lt;java.lang.Integer&gt;'</description>
+  <highlighted_element>AvlNode</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>37</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testAvlIsEmpty()" />
+  <problem_class id="UNCHECKED_WARNING" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unchecked warning</problem_class>
+  <description>Unchecked call to 'AvlNode(T)' as a member of raw type 'avl.AvlNode'</description>
+  <highlighted_element>AvlNode</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>43</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertTop()" />
+  <problem_class id="UNCHECKED_WARNING" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unchecked warning</problem_class>
+  <description>Unchecked assignment: 'avl.AvlNode' to 'avl.AvlNode&lt;java.lang.Integer&gt;'</description>
+  <highlighted_element>AvlNode</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>43</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertTop()" />
+  <problem_class id="UNCHECKED_WARNING" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unchecked warning</problem_class>
+  <description>Unchecked call to 'AvlNode(T)' as a member of raw type 'avl.AvlNode'</description>
+  <highlighted_element>AvlNode</highlighted_element>
+  <language>JAVA</language>
+  <offset>32</offset>
+  <length>7</length>
+</problem>
+</problems>

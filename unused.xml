@@ -1,0 +1,75 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>46</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree void insert(T item)" />
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>6</length>
+  <highlighted_element>insert</highlighted_element>
+  <problem_class id="unused" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>216</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="unused" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused declaration</problem_class>
+  <hints />
+  <description>Variable &lt;code&gt;node4&lt;/code&gt; is never used</description>
+  <highlighted_element>node4</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>216</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="unused" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused declaration</problem_class>
+  <hints />
+  <description>Variable &lt;code&gt;node5&lt;/code&gt; is never used</description>
+  <highlighted_element>node5</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>257</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="unused" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused declaration</problem_class>
+  <hints />
+  <description>Variable &lt;code&gt;node4&lt;/code&gt; is never used</description>
+  <highlighted_element>node4</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>257</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="unused" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused declaration</problem_class>
+  <hints />
+  <description>Variable &lt;code&gt;node5&lt;/code&gt; is never used</description>
+  <highlighted_element>node5</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>5</length>
+</problem>
+</problems>

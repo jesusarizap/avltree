@@ -1,0 +1,951 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlNode.java</file>
+  <line>4</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/avl/AvlNode.java" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Nebro'</description>
+  <highlighted_element>Nebro</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlNode.java</file>
+  <line>6</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/avl/AvlNode.java" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Nebro'</description>
+  <highlighted_element>Nebro</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlNode.java</file>
+  <line>25</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="class" FQNAME="avl.AvlNode" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Nebro'</description>
+  <highlighted_element>Nebro</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>4</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Nebro'</description>
+  <highlighted_element>Nebro</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>5</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Durillo'</description>
+  <highlighted_element>Durillo</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>7</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Nebro'</description>
+  <highlighted_element>Nebro</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>7</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Durillo'</description>
+  <highlighted_element>Durillo</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>28</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="class" FQNAME="avl.AvlTree" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Nebro'</description>
+  <highlighted_element>Nebro</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>261</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree int compareNodes(avl.AvlNode&lt;T&gt; node1, avl.AvlNode&lt;T&gt; node2)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'experimentoutput'</description>
+  <highlighted_element>experimentoutput</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>267</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree void rebalance(avl.AvlNode&lt;T&gt; node)" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'rebalance'</description>
+  <highlighted_element>rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java</file>
+  <line>12</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="class" FQNAME="avl.AvlNodeTest" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Nebro'</description>
+  <highlighted_element>Nebro</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>14</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="class" FQNAME="avl.AvlTreeTest" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Nebro'</description>
+  <highlighted_element>Nebro</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>215</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>220</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>221</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>225</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>226</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>227</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>228</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>232</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>233</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>234</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>236</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>237</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>239</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>241</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>242</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>243</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>244</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>247</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>46</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>256</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>261</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>262</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>266</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>267</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>268</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>269</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>273</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>274</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>275</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>277</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>278</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>280</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>282</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>283</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>284</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>285</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>288</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>365</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>377</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>378</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>379</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>381</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>382</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>384</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>386</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>387</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>388</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>389</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>392</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>401</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>43</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>413</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>414</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>415</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>417</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>418</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>420</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>422</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>423</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>424</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>425</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>428</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalance'</description>
+  <highlighted_element>Rebalance</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>633</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingAndRebalancing()" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Rebalancing'</description>
+  <highlighted_element>Rebalancing</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>11</length>
+</problem>
+</problems>

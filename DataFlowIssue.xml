@@ -1,0 +1,67 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>81</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree avl.AvlNode&lt;T&gt; searchNode(avl.AvlNode&lt;T&gt; targetNode)" />
+  <problem_class id="DataFlowIssue" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nullability and data flow problems</problem_class>
+  <description>Variable is already assigned to this value</description>
+  <highlighted_element>result</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>93</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree avl.AvlNode&lt;T&gt; searchNode(avl.AvlNode&lt;T&gt; targetNode)" />
+  <problem_class id="DataFlowIssue" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nullability and data flow problems</problem_class>
+  <description>Variable is already assigned to this value</description>
+  <highlighted_element>result</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>100</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree avl.AvlNode&lt;T&gt; searchNode(avl.AvlNode&lt;T&gt; targetNode)" />
+  <problem_class id="DataFlowIssue" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nullability and data flow problems</problem_class>
+  <description>Variable is already assigned to this value</description>
+  <highlighted_element>result</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>183</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree int searchClosestNode(avl.AvlNode&lt;T&gt; node)" />
+  <problem_class id="DataFlowIssue" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nullability and data flow problems</problem_class>
+  <description>Variable is already assigned to this value</description>
+  <highlighted_element>result</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>208</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree int searchClosestNode(avl.AvlNode&lt;T&gt; node)" />
+  <problem_class id="DataFlowIssue" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Nullability and data flow problems</problem_class>
+  <description>Variable is already assigned to this value</description>
+  <highlighted_element>result</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>6</length>
+</problem>
+</problems>

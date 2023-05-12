@@ -1,0 +1,1276 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>47</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree void insert(T item)" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument T can be replaced with &lt;&gt;</description>
+  <highlighted_element>T</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>71</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree avl.AvlNode&lt;T&gt; search(T item)" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument T can be replaced with &lt;&gt;</description>
+  <highlighted_element>T</highlighted_element>
+  <language>JAVA</language>
+  <offset>34</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/avl/AvlTree.java</file>
+  <line>112</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTree void delete(T item)" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument T can be replaced with &lt;&gt;</description>
+  <highlighted_element>T</highlighted_element>
+  <language>JAVA</language>
+  <offset>27</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java</file>
+  <line>20</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlNodeTest void setUp()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java</file>
+  <line>31</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlNodeTest void testHasLeft()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlNodeTest.java</file>
+  <line>39</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlNodeTest void testHasRight()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>52</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testCompareNodes()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>53</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testCompareNodes()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>54</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testCompareNodes()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>72</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightAndLeftElementsJustAfterTop()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>74</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightAndLeftElementsJustAfterTop()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>75</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightAndLeftElementsJustAfterTop()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>85</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightAndLeftElementsJustAfterTop()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>91</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightAndLeftElementsJustAfterTop()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>101</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftElement()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>103</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftElement()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>44</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>116</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchClosestNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>121</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchClosestNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>126</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchClosestNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>131</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchClosestNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>136</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchClosestNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>147</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightElement()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>40</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>149</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightElement()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>45</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>168</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testHeightAndBalanceOfASimpleBalancedTree()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>173</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testHeightAndBalanceOfASimpleBalancedTree()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>180</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testHeightAndBalanceOfASimpleBalancedTree()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>187</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testHeightAndBalanceOfASimpleBalancedTree()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>196</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testHeightAndBalanceOfASimpleBalancedTree()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>218</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>223</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>230</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftLeftNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>259</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>264</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>271</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightRightNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>300</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_4_3_2_1()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>301</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_4_3_2_1()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>302</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_4_3_2_1()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>303</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_4_3_2_1()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>304</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_4_3_2_1()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>334</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_8_9_10_11()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>335</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_8_9_10_11()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>336</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_8_9_10_11()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>337</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_8_9_10_11()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>338</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInserting7_8_9_10_11()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>368</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>371</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>374</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingLeftRightNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>404</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>407</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>410</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testInsertingRightLeftNodeAndRebalance()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>435</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>438</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>441</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>444</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>447</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>454</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testSearchNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>39</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>468</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testFindSuccessor()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>471</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testFindSuccessor()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>474</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testFindSuccessor()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>477</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testFindSuccessor()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>480</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testFindSuccessor()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>483</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testFindSuccessor()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>486</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testFindSuccessor()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>489</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testFindSuccessor()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>507</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingLeafNodes()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>510</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingLeafNodes()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>513</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingLeafNodes()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>516</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingLeafNodes()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>519</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingLeafNodes()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>556</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithOneLeaf()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>559</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithOneLeaf()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>562</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithOneLeaf()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>565</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithOneLeaf()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>568</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithOneLeaf()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>593</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithTwoLeaves()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>596</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithTwoLeaves()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>599</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithTwoLeaves()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>602</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithTwoLeaves()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>605</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithTwoLeaves()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>608</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithTwoLeaves()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>611</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithTwoLeaves()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>614</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingNodesWithTwoLeaves()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>636</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingAndRebalancing()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>639</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingAndRebalancing()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>642</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingAndRebalancing()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>645</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingAndRebalancing()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>648</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingAndRebalancing()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>651</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingAndRebalancing()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>654</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingAndRebalancing()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>657</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingAndRebalancing()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>672</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingTopNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>675</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingTopNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>678</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingTopNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>681</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingTopNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>684</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingTopNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>687</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingTopNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>690</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingTopNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/test/java/avl/AvlTreeTest.java</file>
+  <line>693</line>
+  <module>avlTree</module>
+  <package>avl</package>
+  <entry_point TYPE="method" FQNAME="avl.AvlTreeTest void testDeletingTopNode()" />
+  <problem_class id="Convert2Diamond" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Explicit type can be replaced with '&lt;&gt;'</problem_class>
+  <description>Explicit type argument Integer can be replaced with &lt;&gt;</description>
+  <highlighted_element>Integer</highlighted_element>
+  <language>JAVA</language>
+  <offset>23</offset>
+  <length>7</length>
+</problem>
+</problems>
