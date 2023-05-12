@@ -4,6 +4,57 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Given the node implementation
+ * 	When getClosestNode in
+ * 		AvlNode with closestNode, then it returns closestNode
+ * 		new AvlNode, then it returns null
+ * 	When getParent
+ * 		in new AvlNode, then it returns null
+ * 	When hasOnlyALeftChild() in
+ * 		AvlNode with one child, then it returns true
+ * 		AvlNode with two children, then it returns false
+ * 		new AvlNode, then it returns false
+ *
+ * 	When hasOnlyARightChild() in
+ * 		AvlNode with one child, then it returns true
+ * 		AvlNode with two children, then it returns false
+ * 		new AvlNode returns, then it false
+ * 	When hasParent in
+ * 		AvlNode with parent, then it returns true
+ * 		new AvlNode returns, then it false
+ * 	When isLeaf() in
+ * 		AvlNode with one child in left, then it returns false
+ * 		AvlNode with one child in right, then it returns false
+ * 		AvlNode with two children, then it returns false
+ * 		new AvlNode, then it returns true
+ * 	When setClosestNode with
+ * 		new AvlNode, then it gets setted properly
+ * 		null, then it sets a null
+ * 	When setItem with
+ * 		new AvlNode, then it gets saved properly
+ * 	When setLeft with
+ * 		new AvlNode, then it gets setted properly
+ * 		null, then it sets a null
+ * 	When setParent with
+ * 		new AvlNode, then it gets setted properly
+ * 		null, then it sets a null
+ * 	When setRight with
+ * 		new AvlNode, then it gets setted properly
+ * 		null, then it sets a null
+ * 	When updateHeight with
+ * 		a node with one child, then it gets added properly
+ * 		a node with three children in left side and two in right side, then it gets added properly
+ * 		a node with two children, then it gets added properly
+ * 		new AvlNode, then it gets added properly
+ *
+ * 	If item is null, then it throws illegalArgumentException
+ * 	In new AvlNode father, then it returns it is null
+ * 	In new AvlNode left, then it returns it is null
+ *
+ * 	(In the majority if the "then [...] properly" it is implied that either the size of the tree has increased or that when the node is checked, it gets returned as is)
+ */
+
 @DisplayName("Given new AvlNode")
 class AvlNodeTest {
     AvlNode<Integer> node;

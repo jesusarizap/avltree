@@ -8,7 +8,63 @@ import org.junit.jupiter.api.Nested;
 
 /**
  * Created with IntelliJ IDEA. User: Antonio J. Nebro Date: 08/07/13
- */
+ *
+ * Given the tree implementation
+ * 	when comparing nodes
+ * 		then it recognizes the greater first
+ * 		then it recognizes the greater second
+ * 		then recognizes equal
+ *
+ * 	when rebalancing
+ * 		and a single node tree, then it does not change
+ * 		then left rotation works properly
+ * 		then right rotation works properly
+ * 		then double left rotation works properly
+ * 		then double right rotation works properly
+ *
+ * 	when using empty tree
+ * 		and checking if it is empty, then it returns it is
+ * 		and inserting, then it returns false
+ * 		and searching, then it returns null
+ * 		and deleting, then it returns that it is empty
+ * 		and getting the balance, then it returns 0
+ * 		and checking height, then it returns null
+ * 		and checking closest node with null top, it returns null
+ *
+ * 	when using non empty tree
+ * 		and checking if is empty, it returns it is not
+ *
+ * 	when inserting
+ * 		and the inserted is greater, then it gets added to the right
+ * 		and the inserted is smaller, the it gets added to the left
+ * 		and the inserted is equal, it does nothing
+ *
+ * 	when searching
+ * 		and it exists, then it returns the node
+ * 		and it does not exists, then it does not return the node
+ *
+ * 	when deleting
+ * 		and exists
+ * 			and is a leaf, then it deletes node and rebalances
+ * 			and is not a leaf with left child, then deletes node and rebalances
+ * 			and is not a leaf with right child, then deletes node and rebalances
+ * 			and needs a successor, then it deletes node and rebalances
+ * 			and it is a single node tree, then it deletes the node
+ * 			and needs a successor, then it deletes node and rotates successor
+ * 			and needs left rotation, then deletes correctly and rotates
+ * 			and it not a leaf, then it deletes it and rotates
+ * 		and does not exists
+ * 			then it does nothing
+ *
+ * 	when finding successor
+ * 		and does not exist, then it returns it parent
+ * 		and it exists, then it returns null
+ * 		and inserting top, then the parent is new
+ * 		and getting the top, it returns the first node
+ * 		and getting the height, it returns the height
+ *
+ *
+ **/
 public class AvlTreeTest {
 
     AvlTree<Integer> avlTree;
@@ -24,17 +80,6 @@ public class AvlTreeTest {
     public void tearDown() throws Exception {
         avlTree = null;
         comparator = null;
-    }
-
-    @Test
-    public void testSearchClosestNodeWithNullTop() {
-        AvlTree<Integer> tree = new AvlTree<>(null);
-        AvlNode<Integer> node = new AvlNode<>(5);
-
-        int result = tree.searchClosestNode(node);
-
-        assertEquals(0, result);
-        assertNull(node.getClosestNode());
     }
 
     @Nested
@@ -164,6 +209,17 @@ public class AvlTreeTest {
             void getHeight_emptyTree_returnsNegative1() {
                 assertEquals(-1, avlTree.height(null));
             }
+
+            @Test
+            public void testSearchClosestNodeWithNullTop_returnsNull() {
+                //AvlTree<Integer> tree = new AvlTree<>(null);
+                AvlNode<Integer> node = new AvlNode<>(5);
+
+                int result = avlTree.searchClosestNode(node);
+
+                assertEquals(0, result);
+                assertNull(node.getClosestNode());
+            }
         }
 
         @Nested
@@ -235,8 +291,21 @@ public class AvlTreeTest {
             class WHEN_deleting {
                 @Nested
                 class AND_exists {
+
                     @Test
                     public void AND_isLeaf_THEN_deletesNodeAndRebalances() {
+                        avlTree.insert(5);
+                        avlTree.insert(3);
+                        avlTree.insert(7);
+                        avlTree.insert(2);
+
+                        avlTree.delete(2);
+
+                        assertNull(avlTree.search(2));
+                        assertEquals(" | 5 | 3 | 7", avlTree.toString());
+                    }
+                    @Test
+                    public void AND_isNotLeafWithLeftChild_THEN_deletesNodeAndRebalances() {
                         avlTree.insert(5);
                         avlTree.insert(3);
                         avlTree.insert(7);
@@ -246,6 +315,93 @@ public class AvlTreeTest {
 
                         assertNull(avlTree.search(3));
                         assertEquals(" | 5 | 2 | 7", avlTree.toString());
+                    }
+
+                    @Test
+                    public void AND_isNotLeafWithRightChild_THEN_deletesNodeAndRebalances() {
+                        avlTree.insert(5);
+                        avlTree.insert(3);
+                        avlTree.insert(7);
+                        avlTree.insert(4);
+
+                        avlTree.delete(3);
+
+                        assertNull(avlTree.search(3));
+                        assertEquals(" | 5 | 4 | 7", avlTree.toString());
+                    }
+
+                    @Test
+                    public void AND_needsSuccessor_THEN_deletesNodeAndRebalances() {
+                        avlTree.insert(7);
+                        avlTree.insert(3);
+                        avlTree.insert(8);
+                        avlTree.insert(2);
+                        avlTree.insert(6);
+                        avlTree.insert(1);
+                        avlTree.insert(4);
+                        avlTree.insert(5);
+                        avlTree.insert(9);
+                        avlTree.insert(10);
+
+                        avlTree.delete(3);
+
+                        assertNull(avlTree.search(3));
+                        //assertEquals(" | 5 | 4 | 7", avlTree.toString());
+                    }
+
+                    @Test
+                    public void AND_singleNodeTree_THEN_deletesNode() {
+                        avlTree.insert(8);
+
+                        avlTree.delete(8);
+
+                        assertNull(avlTree.search(8));
+                        //assertEquals(" | 5 | 4 | 7", avlTree.toString());
+                    }
+
+                    @Test
+                    public void AND_needsSuccessor_THEN_deletesNodeAndRotatesSuccessor() {
+                        avlTree.insert(12);
+                        avlTree.insert(2);
+                        avlTree.insert(1);
+                        avlTree.insert(5);
+                        avlTree.insert(20);
+                        avlTree.insert(13);
+                        avlTree.insert(15);
+                        avlTree.insert(21);
+
+                        avlTree.delete(15);
+
+                        assertNull(avlTree.search(15));
+                        //assertEquals(" | 5 | 4 | 7", avlTree.toString());
+                    }
+
+                    @Test
+                    public void AND_needsLeftRotation_THEN_DeletesCorrectlyAndRotates() {
+                        avlTree.insert(12);
+                        avlTree.insert(3);
+                        avlTree.insert(15);
+                        avlTree.insert(2);
+                        avlTree.insert(13);
+                        avlTree.insert(20);
+                        avlTree.insert(21);
+                        avlTree.insert(1);
+
+                        avlTree.delete(2);
+
+                        assertNull(avlTree.search(2));
+                        //assertEquals(" | 5 | 4 | 7", avlTree.toString());
+                    }
+
+                    @Test
+                    public void AND_r_THEN_DeletesCorrectlyAndRotates() {
+                        avlTree.insert(2);
+                        avlTree.insert(1);
+
+                        avlTree.delete(2);
+
+                        assertNull(avlTree.search(2));
+                        //assertEquals(" | 5 | 4 | 7", avlTree.toString());
                     }
 
                     @Test
