@@ -25,6 +25,12 @@ class AvlNodeTest {
         assertNull(actualNode);
     }
 
+    @DisplayName("if item is null throws illegalArgumentException")
+    @Test
+    void testConstructorWithNullItemThrowsIllegalArgumentException() {
+        assertThrows(IllegalArgumentException.class, () -> new AvlNode<>(null));
+    }
+
     @DisplayName("In new AvlNode left is null")
     @Test
     void testGetLeftInNewNodeReturnsNull() {
@@ -72,6 +78,8 @@ class AvlNodeTest {
         }
     }
 
+
+
     @DisplayName("When setRight")
     @Nested
     class setRightTestCases{
@@ -106,6 +114,204 @@ class AvlNodeTest {
     }
 
     @Nested
+    @DisplayName("When isLeaf()")
+    class isLeafTestCases{
+        @DisplayName("When isLeaf() in new AvlNode returns true")
+        @Test
+        void testIsLeafInNewNode() {
+            boolean actualResult = node.isLeaf();
+
+            assertTrue(actualResult);
+        }
+
+        @DisplayName("When isLeaf() in AvlNode with one child in left returns false")
+        @Test
+        void testIsLeafInNodeWithOneChild() {
+            AvlNode<Integer> childNode = new AvlNode<>(2);
+            node.setLeft(childNode);
+            childNode.setParent(node);
+
+            boolean actualResult = node.isLeaf();
+
+            assertFalse(actualResult);
+        }
+
+        @DisplayName("When isLeaf() in AvlNode with one child in right returns false")
+        @Test
+        void testIsLeafInNodeWithOneChildInRight() {
+            AvlNode<Integer> childNode = new AvlNode<>(2);
+            node.setRight(childNode);
+            childNode.setParent(node);
+
+            boolean actualResult = node.isLeaf();
+
+            assertFalse(actualResult);
+        }
+
+
+        @DisplayName("When isLeaf() in AvlNode with two children returns false")
+        @Test
+        void testIsLeafWithTwoChildren() {
+            AvlNode<Integer> childNode = new AvlNode<>(2);
+            AvlNode<Integer> childNode2 = new AvlNode<>(3);
+            node.setLeft(childNode);
+            node.setRight(childNode2);
+
+            boolean actualResult = node.isLeaf();
+
+            assertFalse(actualResult);
+        }
+    }
+
+    @DisplayName("When hasOnlyALeftChild()")
+    @Nested
+    class hasOnlyALeftChildTestCases{
+        @DisplayName("When hasOnlyALeftChild() in new AvlNode returns false")
+        @Test
+        void testHasOnlyALeftChildInNewNode() {
+            boolean actualResult = node.hasOnlyALeftChild();
+
+            assertFalse(actualResult);
+        }
+
+        @DisplayName("When hasOnlyALeftChild() in AvlNode with one child returns true")
+        @Test
+        void testHasOnlyALeftChildInNodeWithOneChild() {
+            AvlNode<Integer> childNode = new AvlNode<>(2);
+            node.setLeft(childNode);
+
+            boolean actualResult = node.hasOnlyALeftChild();
+
+            assertTrue(actualResult);
+        }
+
+        @DisplayName("When hasOnlyALeftChild() in AvlNode with two children returns false")
+        @Test
+        void testHasOnlyALeftChildInNodeWithTwoChildren() {
+            AvlNode<Integer> childNode1 = new AvlNode<>(2);
+            AvlNode<Integer> childNode2 = new AvlNode<>(3);
+            node.setLeft(childNode1);
+            node.setRight(childNode2);
+
+
+            boolean actualResult = node.hasOnlyALeftChild();
+
+            assertFalse(actualResult);
+        }
+    }
+
+    @DisplayName("When hasOnlyARightChild()")
+    @Nested
+    class hasOnlyARightChildTestCases {
+        @DisplayName("When hasOnlyARightChild() in new AvlNode returns false")
+        @Test
+        void testHasOnlyARightChildInNewNode() {
+            boolean actualResult = node.hasOnlyARightChild();
+
+            assertFalse(actualResult);
+        }
+
+        @DisplayName("When hasOnlyARightChild() in AvlNode with one child returns true")
+        @Test
+        void testHasOnlyARightChildInNodeWithOneChild() {
+            AvlNode<Integer> childNode = new AvlNode<>(2);
+            node.setRight(childNode);
+
+            boolean actualResult = node.hasOnlyARightChild();
+
+            assertTrue(actualResult);
+        }
+
+        @DisplayName("When hasOnlyARightChild() in AvlNode with two children returns false")
+        @Test
+        void testHasOnlyARightChildInNodeWithTwoChildren() {
+            AvlNode<Integer> childNode1 = new AvlNode<>(2);
+            AvlNode<Integer> childNode2 = new AvlNode<>(3);
+            node.setLeft(childNode1);
+            node.setRight(childNode2);
+
+
+            boolean actualResult = node.hasOnlyARightChild();
+
+            assertFalse(actualResult);
+        }
+
+    }
+
+    @DisplayName("When hasParent")
+    @Nested
+    class hasParentTestCases{
+        @DisplayName("When hasParent in new AvlNode returns false")
+        @Test
+        void testHasParentInNewNode() {
+            boolean actualResult = node.hasParent();
+
+            assertFalse(actualResult);
+        }
+
+        @DisplayName("When hasParent in AvlNode with parent returns true")
+        @Test
+        void testHasParentInNodeWithParent() {
+            AvlNode<Integer> parentNode = new AvlNode<>(2);
+            node.setParent(parentNode);
+
+            boolean actualResult = node.hasParent();
+
+            assertTrue(actualResult);
+        }
+    }
+
+    @DisplayName("When setClosestNode")
+    @Nested
+    class setClosestNodeTestCases{
+        @DisplayName("When setClosestNode with null")
+        @Test
+        void testSetClosestNodeWithNull() {
+            node.setClosestNode(null);
+
+            AvlNode<Integer> actualNode = node.getClosestNode();
+
+            assertNull(actualNode);
+        }
+
+        @DisplayName("When setClosestNode with new AvlNode")
+        @Test
+        void testSetClosestNodeWithNewNode() {
+            AvlNode<Integer> expectedNode = new AvlNode<>(2);
+
+            node.setClosestNode(expectedNode);
+
+            AvlNode<Integer> actualNode = node.getClosestNode();
+
+            assertEquals(expectedNode, actualNode);
+        }
+    }
+
+    @DisplayName("When getClosestNode")
+    @Nested
+    class getClosestNodeTestCases{
+        @DisplayName("When getClosestNode in new AvlNode returns null")
+        @Test
+        void testGetClosestNodeInNewNode() {
+            AvlNode<Integer> actualNode = node.getClosestNode();
+
+            assertNull(actualNode);
+        }
+
+        @DisplayName("When getClosestNode in AvlNode with closestNode returns closestNode")
+        @Test
+        void testGetClosestNodeInNodeWithClosestNode() {
+            AvlNode<Integer> expectedNode = new AvlNode<>(2);
+            node.setClosestNode(expectedNode);
+
+            AvlNode<Integer> actualNode = node.getClosestNode();
+
+            assertEquals(expectedNode, actualNode);
+        }
+    }
+
+    @Nested
+    @DisplayName("When setItem")
     class setItemTestCases{
 
         @DisplayName("When setItem with new AvlNode")
@@ -120,6 +326,47 @@ class AvlNodeTest {
     }
 
     @Nested
+    @DisplayName("When getParent")
+    class getParentTestCases{
+        @Test
+        @DisplayName("When getParent in new AvlNode returns null")
+        void testGetParentInNewNode() {
+            AvlNode<Integer> actualNode = node.getParent();
+
+            assertNull(actualNode);
+        }
+
+
+    }
+
+    @Nested
+    @DisplayName("When setParent")
+    class setParentTestCases{
+        @Test
+        @DisplayName("When setParent with new AvlNode")
+        void testSetParentWithNewNode() {
+            AvlNode<Integer> expectedNode = new AvlNode<>(2);
+
+            node.setParent(expectedNode);
+
+            AvlNode<Integer> actualNode = node.getParent();
+
+            assertEquals(expectedNode, actualNode);
+        }
+
+        @Test
+        @DisplayName("When setParent with null")
+        void testSetParentWithNull() {
+            node.setParent(null);
+
+            AvlNode<Integer> actualNode = node.getParent();
+
+            assertNull(actualNode);
+        }
+    }
+
+    @Nested
+    @DisplayName("When updateHeight")
     class updateHeightTestCases {
 
         @DisplayName("When updateHeight with new AvlNode")

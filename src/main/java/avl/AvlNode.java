@@ -126,14 +126,7 @@ public class AvlNode<T> {
   public int getHeight() {
     return height;
   }
-//Este metodo lo pondría privado ya que puede generar errores y ya tenemos el metodo updateHeight
-  private void setHeight(int height) {
-
-    if(height < 0){
-        throw new IllegalArgumentException("Height cannot be negative");
-    }
-    this.height = height;
-  }
+//Metodo setHeight borrado porque no tiene sentido con updateHeight
 
   public void updateHeight() {
     if (!hasLeft() && !hasRight()) {
