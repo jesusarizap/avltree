@@ -42,6 +42,9 @@ public class AvlNode<T> {
    * @param item
    */
   public AvlNode(T item) {
+    if (item == null){
+        throw new IllegalArgumentException("Item cannot be null");
+    }
     this.left = null;
     this.right = null;
     this.parent = null;
@@ -56,6 +59,7 @@ public class AvlNode<T> {
   }
 
   public void setLeft(AvlNode<T> left) {
+
     this.left = left;
   }
 
@@ -64,6 +68,7 @@ public class AvlNode<T> {
   }
 
   public void setParent(AvlNode<T> parent) {
+
     this.parent = parent;
   }
 
@@ -72,6 +77,7 @@ public class AvlNode<T> {
   }
 
   public void setRight(AvlNode<T> right) {
+
     this.right = right;
   }
 
@@ -80,14 +86,19 @@ public class AvlNode<T> {
   }
 
   public void setItem(T item) {
+
     this.item = item;
   }
 
   public int getHeight() {
     return height;
   }
+//Este metodo lo pondría privado ya que puede generar errores y ya tenemos el metodo updateHeight
+  private void setHeight(int height) {
 
-  public void setHeight(int height) {
+    if(height < 0){
+        throw new IllegalArgumentException("Height cannot be negative");
+    }
     this.height = height;
   }
 
