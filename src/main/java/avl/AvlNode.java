@@ -61,6 +61,17 @@ public class AvlNode<T> {
   public void setLeft(AvlNode<T> left) {
 
     this.left = left;
+    if(left != null){
+      left.updateHeight();
+      left.setParent(this);
+    }
+    updateHeight();
+    AvlNode<T> parent = getParent();
+    while(parent!=null){
+      parent.updateHeight();
+      parent = parent.getParent();
+    }
+
   }
 
   public AvlNode<T> getParent() {
@@ -70,6 +81,15 @@ public class AvlNode<T> {
   public void setParent(AvlNode<T> parent) {
 
     this.parent = parent;
+
+    if(parent != null){
+      AvlNode<T> actualParent = getParent();
+      while(actualParent!=null){
+        actualParent.updateHeight();
+        actualParent = actualParent.getParent();
+      }
+    }
+
   }
 
   public AvlNode<T> getRight() {
@@ -79,6 +99,19 @@ public class AvlNode<T> {
   public void setRight(AvlNode<T> right) {
 
     this.right = right;
+
+    if(right != null){
+      right.updateHeight();
+      right.setParent(this);
+    }
+    updateHeight();
+    AvlNode<T> parent = getParent();
+    while(parent!=null){
+        parent.updateHeight();
+        parent = parent.getParent();
+    }
+    //Añado que cada vez que añada un nuevo elemento actualize tanto la altura del padre como la del hijo
+
   }
 
   public T getItem() {

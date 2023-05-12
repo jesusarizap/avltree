@@ -59,10 +59,16 @@ class AvlNodeTest {
         void testSetLeftWithNewNode() {
             AvlNode<Integer> expectedNode = new AvlNode<>(2);
             node.setLeft(expectedNode);
+            int expectedHeightFather = 1;
+            int expectedHeightChild = 0;
 
             AvlNode<Integer> actualNode = node.getLeft();
+            int actualHeightFather = node.getHeight();
+            int actualHeightChild = actualNode.getHeight();
 
             assertEquals(expectedNode, actualNode);
+            assertEquals(expectedHeightFather, actualHeightFather);
+            assertEquals(expectedHeightChild, actualHeightChild);
         }
     }
 
@@ -83,13 +89,19 @@ class AvlNodeTest {
         @Test
         void testSetRightWithNewNode() {
             AvlNode<Integer> expectedNode = new AvlNode<>(2);
-
+            int expectedHeightFather = 1;
+            int expectedHeightChild = 0;
 
             node.setRight(expectedNode);
 
+
             AvlNode<Integer> actualNode = node.getRight();
+            int actualHeightFather = node.getHeight();
+            int actualHeightChild = actualNode.getHeight();
 
             assertEquals(expectedNode, node.getRight());
+            assertEquals(expectedHeightFather, actualHeightFather);
+            assertEquals(expectedHeightChild, actualHeightChild);
         }
     }
 
@@ -108,20 +120,97 @@ class AvlNodeTest {
     }
 
     @Nested
-    class updateHeightTestCases{
+    class updateHeightTestCases {
 
-            @DisplayName("When updateHeight with new AvlNode")
-            @Test
-            void testUpdateHeightWithNewNode() {
-                int expectedHeight = 0;
+        @DisplayName("When updateHeight with new AvlNode")
+        @Test
+        void testUpdateHeightWithNewNode() {
+            int expectedHeight = 0;
 
-                node.updateHeight();
+            node.updateHeight();
 
-                int actualHeight = node.getHeight();
+            int actualHeight = node.getHeight();
 
-                assertEquals(expectedHeight, actualHeight);
-            }
+            assertEquals(expectedHeight, actualHeight);
+        }
 
+        @DisplayName("when updateHeight with a node with one child")
+        @Test
+        void testUpdateHeightWithOneChild() {
+            AvlNode<Integer> childNode = new AvlNode<>(2);
+            node.setLeft(childNode);
+            childNode.setParent(node);
+
+            node.updateHeight();
+
+            int expectedHeight = 1;
+            int actualHeight = node.getHeight();
+
+            assertEquals(expectedHeight, actualHeight);
+        }
+
+        @DisplayName("when updateHeight with a node with two children")
+        @Test
+        void testUpdateHeightWithTwoChildren() {
+            AvlNode<Integer> childNode = new AvlNode<>(2);
+            node.setLeft(childNode);
+            childNode.setParent(node);
+
+            AvlNode<Integer> childNode2 = new AvlNode<>(3);
+            childNode.setLeft(childNode2);
+            childNode2.setParent(childNode);
+
+            node.updateHeight();
+
+
+            int expectedHeight = 2;
+            int actualHeight = node.getHeight();
+
+            assertEquals(expectedHeight, actualHeight);
+        }
+
+        @DisplayName("when updateHeight with a node with three children in left side and two in right side")
+        @Test
+        void testUpdateHeightWithThreeChildrenInLeftSideAndTwoInRightSide() {
+            //Parte izquierda
+            AvlNode<Integer> childNodeLeft = new AvlNode<>(2);
+            node.setLeft(childNodeLeft);
+
+            AvlNode<Integer> childNode2Left = new AvlNode<>(3);
+            childNodeLeft.setLeft(childNode2Left);
+
+            AvlNode<Integer> childNode3Left = new AvlNode<>(4);
+            childNode2Left.setLeft(childNode3Left);
+
+            AvlNode<Integer> childNode4Left = new AvlNode<>(5);
+            childNode3Left.setLeft(childNode4Left);
+
+
+
+
+            AvlNode<Integer> childNodeRight = new AvlNode<>(5);
+            node.setRight(childNodeRight);
+
+            AvlNode<Integer> childNode2Right = new AvlNode<>(6);
+            childNodeRight.setRight(childNode2Right);
+
+
+
+            node.updateHeight();
+            int expectedRightHeight = 1;
+            int expectedLeftHeight = 3;
+            int expectedHeight = 4;
+
+
+
+            int actualHeight = node.getHeight();
+            int actualLeftHeight = node.getLeft().getHeight();
+            int actualRightHeight = node.getRight().getHeight();
+
+            assertEquals(expectedHeight, actualHeight);
+            assertEquals(expectedLeftHeight, actualLeftHeight);
+            assertEquals(expectedRightHeight, actualRightHeight);
+        }
     }
 
 
